@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+main() 
+{
+    float x,y,result;
+    printf("Enter the value of x: ");
+    scanf("%f", &x);
+    printf("Enter the value of y: ");
+    scanf("%f", &y);
+    result = pow(x, y);
+    printf("%.2fThe power of %.2f is %.2f\n", x, y, result);
+}
